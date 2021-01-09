@@ -1,0 +1,61 @@
+# data folders and logs
+data
+log_seg
+
+
+# packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.egg
+*.egg-info
+dist
+include
+share
+build
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+core
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.spyderworkspace
+*~
+
+
+# Python byproducts #
+#####################
+*.pyc
+build
+dist
+docs/_build
+*egg-info
+.settings
+pip-log.txt
+.ipynb_checkpoints
+

@@ -189,8 +189,43 @@ def make_spheres(obj_shape, void_frac = 0.5, radius = 8, radius_std = 4, nbins =
 
 
 
+def make_fibrousmat(obj_shape, radius = 8, ncylinders = 50, radius_std = 4, theta_max = 0.1, phi_max = 0.1):
+    '''
+    Makes a phantom of a material with spherical voids of different sizes (label = 1 is material, label = 0 is spherical void)     
+    
+    Parameters
+    ----------
+    obj_shape : tuple  
+        shape nz, ny, nx  
+    
+    ncylinders : int  
+        number of cylinders total  
+        
+    radius : float
+        number in voxels indicating mean radius  
+        
+    radius_std : float
+        number in voxels indicating standard deviation of uniform distribution of radii  
+        
+    '''
 
-
+    nbins = int(2*radius_std+1)
+    radius_list = np.linspace(radius-radius_std, \
+                              radius+radius_std, \
+                              nbins, \
+                              endpoint = True)
+    
+    vol = np.ones(obj_shape, dtype = np.uint8)
+    
+    for rad in radius_list:
+        vol = vol*generators.cylinders(shape = obj_shape, \
+                                       radius = rad, \
+                                       ncylinders = ncylinders//nbins, \
+                                       theta_max = theta_max, \
+                                       phi_max = phi_max)
+        
+    return vol
+        
 
 
 

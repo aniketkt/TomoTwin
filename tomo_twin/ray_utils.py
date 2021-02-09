@@ -243,7 +243,7 @@ class Material:
         self.read_attcoeff()
         self.sigma = np.multiply(self.att_coeff, self.density)*(self.path_len*1e-4) # att_coeff in cm2/g, rho in g/cm3, res in cm
 
-def read_source(file_path, energy_pts, res = 1.17, img_shape = (1200,1920), bits = 16):
+def read_source(file_path, energy_pts, res = 1.17, img_shape = (1200,1920), bits = 16, exp_fac = 0.92):
     """
     
     Reads data from a source hdf5 file, in a format specific to this code. The original data is adapted from DABAX in XOP.
@@ -305,7 +305,7 @@ def read_source(file_path, energy_pts, res = 1.17, img_shape = (1200,1920), bits
     b = (b - b_min) / (b_max - b_min)
     b = b/energy_pts.size
     
-    b = (2**bits-1 - 2000)*(0.92*b + 0.08)
+    b = (2**bits-1 - 2000)*(exp_fac*b + (1-exp_fac))
     
     return b 
 

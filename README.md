@@ -1,3 +1,8 @@
+
+[![DOCS](https://readthedocs.org/projects/docs/badge/?version=latest)](https://tomotwin.readthedocs.io/en/latest/?badge=latest)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aniketkt/TomoTwin/master?filepath=notebooks%2Fsynthesize_voids_and_inclusions.ipynb)
+
 # TomoTwin
 
 <p align="justify">TomoTwin is a simple digital twin for synchrotron tomography that provides an API to generate realistic grayscale tomography datasets from ground-truth (labeled) volumes as training data for denoising and segmentation models. The grayscale data mimics imaging artifacts such as noise and in-line phase contrast with a dependence on the instrument parameters such as detector configuration and beam energy.</p>  

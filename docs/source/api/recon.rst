@@ -1,6 +1,6 @@
 :mod:`recon`
 ==========================
 
-.. automodule:: ct_segnet.recon
+.. automodule:: tomo_twin.recon
    :members:
    :show-inheritance:

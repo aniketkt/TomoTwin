@@ -4,10 +4,10 @@
 .. automodule:: tomo_twin.ray
    :members: 
    
-.. autoclass:: ct_segnet.ray.Phantom
+.. autoclass:: tomo_twin.ray.Phantom
    :members:
    
-.. autoclass:: ct_segnet.ray.Material
+.. autoclass:: tomo_twin.ray.Material
    :members:
 
 

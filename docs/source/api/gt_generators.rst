@@ -1,7 +1,7 @@
 :mod:`gt_generators`
 ==========================
 
-.. automodule:: ct_segnet.gt_generators
+.. automodule:: tomo_twin.gt_generators
    :members:
    
    

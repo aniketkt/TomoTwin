@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import cv2
 from tomopy import project
 from scipy.ndimage.filters import gaussian_filter
-from PG_filtering import add_phase_contrast
+from tomo_twin.pg_filter import add_phase_contrast
 
 model_data_path = '../model_data'
 

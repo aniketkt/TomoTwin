@@ -1,0 +1,20 @@
+name: tomoenv
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - tomopy
+ 
+  - pip
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
+    - h5py
+    - scipy
+    - opencv-python
+    - porespy
+    - git+https://github.com/aniketkt/ImageStackPy.git#egg=ImageStackPy
+    - git+https://github.com/aniketkt/CTSegNet.git#egg=ct_segnet

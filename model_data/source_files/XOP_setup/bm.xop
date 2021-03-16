@@ -1,0 +1,17 @@
+; xop/xop_ifc,'bm'(v1.1) input file on Wed Dec 23 08:50:36 2020
+''         | MACHINE_NAME         | 'APSbending magnet'
+StrArr(3)  | RB_CHOICE            | ['       0','Magnetic Radius','Magnetic Field']
+0.         | MACHINE_R_M          |  39.0000
+0.         | BFIELD_T             |  0.700000
+0.         | BEAM_ENERGY_GEV      |  7.00000
+0.         | CURRENT_A            |  0.100000
+0.         | HOR_DIV_MRAD         |  1.00000
+StrArr(5)  | VER_DIV              | ['       2','Full (integrated in Psi)','At Psi=0','In [PsiMin,PsiMax]','At Psi=Psi_Min']
+0.         | PHOT_ENERGY_MIN      |  1000.00
+0.         | PHOT_ENERGY_MAX      |  200000.
+0L         | NPOINTS              |  1991
+StrArr(3)  | LOG_CHOICE           | ['       0','Lin','Log']
+0.         | PSI_MRAD_PLOT        |  1.00000
+0.         | PSI_MIN              |  -0.100000
+0.         | PSI_MAX              |  0.100000
+0L         | PSI_NPOINTS          |  501

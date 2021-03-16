@@ -1,7 +1,5 @@
 
-[![DOCS](https://readthedocs.org/projects/docs/badge/?version=latest)](https://tomotwin.readthedocs.io/en/latest/?badge=latest)
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aniketkt/TomoTwin/master?filepath=notebooks%2Fsynthesize_voids_and_inclusions.ipynb)
+[![DOCS](https://readthedocs.org/projects/docs/badge/?version=latest)](https://tomotwin.readthedocs.io/en/latest/?badge=latest)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/aniketkt/TomoTwin/master?filepath=notebooks%2Fsynthesize_voids_and_inclusions.ipynb)
 
 # TomoTwin
 

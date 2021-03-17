@@ -70,7 +70,7 @@ master_doc = 'index'
 
 # General information about the project.
 Affiliation = u'Argonne National Laboratory'
-project = u'CTSegNet'
+project = u'TomoTwin'
 copyright = u'2020, ' + Affiliation
 
 # The version info for the project you're documenting, acts as replacement for
@@ -284,7 +284,7 @@ texinfo_documents = [
   project+u' Documentation',
   Affiliation, 
   project, 
-  'CTSegNet'),
+  'TomoTwin'),
 ]
 
 # Documents to append as an appendix to all manuals.

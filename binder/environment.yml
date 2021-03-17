@@ -18,3 +18,5 @@ dependencies:
     - porespy
     - git+https://github.com/aniketkt/ImageStackPy.git#egg=ImageStackPy
     - git+https://github.com/aniketkt/CTSegNet.git#egg=ct_segnet
+    - git+https://github.com/aniketkt/TomoTwin.git@master#egg=tomo_twin
+

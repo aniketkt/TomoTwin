@@ -17,8 +17,8 @@ setup(
     # Needed for dependencies
     install_requires=['numpy', 'pandas', 'scipy', 'h5py', 'matplotlib', \
                       'opencv-python', 'porespy', 'ConfigArgParse', 'tqdm', 'ipython',\
-                      '. @ git+https://github.com/aniketkt/ImageStackPy.git#egg=ImageStackPy',\
-                      '. @ git+https://github.com/aniketkt/CTSegNet.git@master#egg=ct_segnet'],
+                      'ImageStackPy @ git+https://github.com/aniketkt/ImageStackPy.git',\
+                      'ct_segnet @ git+https://github.com/aniketkt/CTSegNet.git'],
     version=open('VERSION').read().strip(),
     license='BSD',
     description='A simple digital twin for synchrotron tomography',

@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """  
-@author: atekawade  
-
-Functions to generator ground-truth phantoms. We rely heavily on porespy.  
+Functions to generate ground-truth phantoms. We rely heavily on porespy.  
 https://porespy.readthedocs.io/en/master/getting_started.html#generating-an-image  
 
 """

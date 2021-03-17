@@ -1,10 +1,6 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jan 31 14:53:50 2019
-
-@author: atekawade
-
 This code is adapted from Tomopy's phase-retrieval module. The code inverts the Paganin filter to synthesize phase-contrast with a high-pass filter.  
 
 

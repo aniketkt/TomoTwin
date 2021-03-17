@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct  2 22:59:34 2019
-
-@author: atekawade  
-
 The Phantom class is instantiated with a ground-truth phantom and corresponding material properties data. The get_projections method simulates data acquisition and returns radiographs for the specified theta values.  
 
 """

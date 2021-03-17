@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """  
-@author: atekawade  
-
 Wrapper functions for tomopy reconstruction.  
 
 """

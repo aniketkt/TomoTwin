@@ -16,9 +16,7 @@ setup(
     packages= ['tomo_twin'],
     # Needed for dependencies
     install_requires=['numpy', 'pandas', 'scipy', 'h5py', 'matplotlib', \
-                      'opencv-python', 'porespy', 'ConfigArgParse', 'tqdm', 'ipython',\
-                      f'ImageStackPy @ git+https://github.com/aniketkt/ImageStackPy.git#egg=ImageStackPy',\
-                      f'ct_segnet @ git+https://github.com/aniketkt/CTSegNet.git@master#egg=ct_segnet'],
+                      'opencv-python', 'porespy', 'ConfigArgParse', 'tqdm', 'ipython', 'ct-segnet']
     version=open('VERSION').read().strip(),
     license='BSD',
     description='A simple digital twin for synchrotron tomography',

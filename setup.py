@@ -16,7 +16,8 @@ setup(
     packages= ['tomo_twin'],
     # Needed for dependencies
     install_requires=['numpy', 'pandas', 'scipy', 'h5py', 'matplotlib', \
-                      'opencv-python', 'porespy', 'ConfigArgParse', 'tqdm', 'ipython', 'ct-segnet']
+                      'opencv-python', 'porespy', \
+                      'ConfigArgParse', 'tqdm', 'ipython', 'ct-segnet'],
     version=open('VERSION').read().strip(),
     license='BSD',
     description='A simple digital twin for synchrotron tomography',

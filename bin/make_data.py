@@ -22,10 +22,9 @@ from ct_segnet import viewer
 mpl.use('Agg')
 figw = 12
 
-if "../tomo_twin" not in sys.path: # local imports
-    sys.path.append('../tomo_twin')
-import ray_utils as ray
-from utils import *
+from tomo_twin import ray
+from recon import *
+from gt_generators import make_voids_inclusions
 
 
 def custom_tuple(s):
